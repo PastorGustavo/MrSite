@@ -1,0 +1,253 @@
+body {
+    background-color: #0b0f22;
+}
+
+/*Formantando a apresentação*/
+
+.Apr {
+
+    height: 620px;
+
+    display: flex;
+    align-items: center;
+}
+
+/*Definindo o tamanho das caixas dentro de APR de 400height*/
+.Apr div {
+    width: 50%;
+    height: 80%;
+
+    display: flex;
+
+    justify-content: center;
+}
+
+.Apr div img {
+    height: 100%;
+}
+
+/*Textos*/
+.TextoApr {
+    margin: 0px 20px;
+
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+.TextoApr p,
+.TextoApr h1 {
+    margin-left: 10%;
+
+}
+
+.TextoApr p {
+    font-weight: 500;
+    font-size: 1.05em;
+}
+
+.TextoApr h1 {
+    font-size: 2.3em;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    margin-bottom: 40px;
+}
+
+.desce,
+.desce i {
+    display: flex;
+    align-items: center;
+}
+
+p.desce {
+    font-size: 0.91em;
+    margin-top: 10px;
+
+}
+
+.desce i {
+    margin-left: 14px;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    background-color: #28a745;
+    justify-content: center;
+
+    animation: crescer 4s infinite;
+}
+
+.desce i span {
+    background-color: #005586;
+
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: relative;
+
+
+
+}
+
+
+
+
+
+
+
+.container {
+    margin-top: 40px;
+    color: whitesmoke;
+    font-weight: 500;
+    padding: 40px 0px;
+}
+
+.questions small,
+.item small {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+    opacity: 0.5;
+}
+
+.questions {
+    text-align: center;
+
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.quiz h1 {
+    font-weight: 640;
+    margin-bottom: 20px;
+}
+
+#cima {
+    margin-top: 160px;
+}
+
+.item {
+    margin: 140px auto;
+
+    width: 92%;
+
+}
+
+.item h3 {
+    font-size: 1.32em;
+    letter-spacing: -0.3px;
+    margin-bottom: 18px;
+}
+
+.item p {
+    font-size: 0.96em;
+
+    margin: 1px;
+}
+
+
+
+
+
+
+
+.button button {
+    width: 22%;
+    height: 38px;
+
+    border-radius: 4px;
+    box-shadow: 0 0 1px #005586;
+
+    border: unset;
+    outline: unset;
+
+    font-weight: 600;
+    font-size: 0.8em;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+}
+
+
+
+
+.button {
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+.button button {
+    animation: btt 5s infinite;
+}
+
+@keyframes btt {
+    0% {
+        width: 22%;
+    }
+
+    60% {
+        width: 25%;
+        box-shadow: 0 0 10px #005586;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    font-weight: 600;
+}
+
+
+
+
+@keyframes crescer {
+
+
+    50% {
+        box-shadow: 0 0 16px rgb(255, 255, 255);
+
+    }
+}
+
+
+
+
+
+
+
+
+.bg2 {
+
+    background-color: #060814;
+
+}
+
+.container {
+    margin-top: 0px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+.green {
+    color: #28a745;
+}
+
+.red {
+    color: #dc3545;
+}
